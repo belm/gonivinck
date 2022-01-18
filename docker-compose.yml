@@ -118,7 +118,7 @@ services:
       - backend
     restart: always
 
-  grafana:
+  grafana:     # 默认访问账号和密码是admin
     build:
       context: ./grafana
     environment:
